@@ -1,0 +1,8 @@
+Model,Mean 10-Fold Acc,Std 10-Fold Acc,Mean Acc Diff vs Proposed,Paired t-stat,t-test p-value,Wilcoxon p-value,Cohen's d Effect,95% CI Difference,Statistically Significant (p < 0.05)
+Sample-Adaptive Fusion (Proposed),0.9558,0.0062,0.0,0.0,1.0000,1.0000,0.0,"[0.0000, 0.0000]",Yes
+LightGBM,0.9626,0.0064,-0.0068,-7.89,2.4732e-05,0.0020,-2.495,"[-0.0085, -0.0051]",Yes
+XGBoost,0.962,0.0074,-0.0062,-5.102,6.4346e-04,0.0020,-1.613,"[-0.0086, -0.0038]",Yes
+CatBoost,0.9629,0.0071,-0.0071,-4.428,0.0017,0.0076,-1.4,"[-0.0103, -0.0040]",Yes
+Random Forest,0.9601,0.0055,-0.0043,-2.538,0.0318,0.0371,-0.803,"[-0.0076, -0.0010]",Yes
+Late Fusion Stacking,0.9404,0.0052,0.0154,6.262,1.4759e-04,0.0020,1.98,"[0.0106, 0.0202]",Yes
+Logistic Regression,0.9271,0.0059,0.0287,10.305,2.7839e-06,0.0020,3.259,"[0.0233, 0.0342]",Yes

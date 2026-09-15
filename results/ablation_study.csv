@@ -1,0 +1,9 @@
+Configuration,Features Count,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+URL Modality Only,12,0.91,0.8975,0.9464,0.9213,0.9633
+Domain Modality Only,9,0.8883,0.8699,0.9399,0.9036,0.9563
+Page/HTML Modality Only,9,0.7227,0.7464,0.7604,0.7533,0.7703
+Dual: URL + Domain,21,0.9521,0.944,0.9716,0.9576,0.9925
+Dual: URL + Page/HTML,21,0.929,0.9409,0.931,0.9359,0.9814
+Dual: Domain + Page/HTML,18,0.9209,0.9055,0.9578,0.9309,0.9796
+Tri-Modality Early Fusion,30,0.9683,0.9678,0.9756,0.9717,0.996
+Sample-Adaptive Fusion (Proposed),30,0.9607,0.9643,0.9651,0.9647,0.9947
