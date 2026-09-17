@@ -243,7 +243,7 @@ This project is open-source under the **MIT License**.
 @article{johnson2026phishfusion,
   title={PhishFusion: Sample-Adaptive Multimodal Feature Fusion for Phishing Website Detection},
   author={Johnson, Aditya},
-  journal={Antigravity Machine Learning Research},
+  journal={Machine Learning Research},
   year={2026}
 }
 ```
